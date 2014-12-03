@@ -1,0 +1,8 @@
+baseurl: "http://docs.shouldbee.at"
+title: ShouldBee
+permalinks:
+  post: /:year/:month/:title/
+params:
+  Description: null
+  Copyright: ©ShouldBee 2014. All rights reserved.
+MetaDataFormat: yaml
