@@ -20,12 +20,12 @@ title: ステップ一覧
 
 ### 状態確認ステップ
 
-* 画面に「`テキスト`」と表示されていること
-* 画面に「`テキスト`」と表示されていないこと
-* 「`要素名`」に「`テキスト`」と表示されていること
-* 「`要素名`」に「`テキスト`」と表示されていないこと
-* 「`要素名`」の「`属性名`」属性に「`テキスト`」が含まれていること
-* 「`要素名`」の「`属性名`」属性に「`テキスト`」が含まれていないこと
+* [画面に「`テキスト`」と表示されていること](/steps/PageShouldContainText/)
+* [画面に「`テキスト`」と表示されていないこと](/steps/PageShouldNotContainText/)
+* [「`要素名`」に「`テキスト`」と表示されていること](/steps/ElementShouldContainText/)
+* [「`要素名`」に「`テキスト`」と表示されていないこと](/steps/ElementShouldNotContainText/)
+* [「`要素名`」の「`属性名`」属性に「`テキスト`」が含まれていること](/steps/ElementAttributeShouldContainText/)
+* [「`要素名`」の「`属性名`」属性に「`テキスト`」が含まれていないこと](/steps/ElementAttributeShouldNotContainText/)
 
 --------
 
