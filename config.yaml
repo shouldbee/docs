@@ -1,5 +1,5 @@
 baseurl: "http://docs.shouldbee.at"
-title: ShouldBee
+title: ShouldBeeドキュメント
 permalinks:
   post: /:year/:month/:title/
 params:
