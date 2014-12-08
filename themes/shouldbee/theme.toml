@@ -1,0 +1,9 @@
+name = "ShouldBee"
+license = ""
+description = "Theme for docs.shouldbee.at"
+tags = ["docs"]
+features = ["blog", ]
+
+[author]
+    name = "shouldbee"
+    homepage = "http://shouldbee.at"

@@ -1,0 +1,26 @@
+{{ partial "head.html" . }}
+
+{{ range first 1 .Data.Pages }}
+<article>
+  <div class="jumbotron">
+    <div class="container">
+      <h2>{{ .Title }}</h2>
+    </div>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8">
+        <div class="post-content">{{ .Content }}</div>
+        <!-- <span class="post-date">{{ .Date.Format "Mon, Jan 2, 2006" }}</span> -->
+      </div>
+      <div class="col-md-4 well well-small">
+        <aside>
+          {{ partial "sidebar.html" . }}
+        </aside>
+      </div>
+    </div>
+  </div>
+</article>
+{{ end }}
+
+{{ partial "foot.html" . }}

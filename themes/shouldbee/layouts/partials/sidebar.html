@@ -1,0 +1,7 @@
+<div class="sidemenu">
+{{ range .Site.Pages }}
+  {{ if  eq .Params.sidemenu true }}
+    {{ .Content }}
+  {{ end }}
+{{ end }}
+</div>
