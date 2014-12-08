@@ -30,6 +30,10 @@ sidemenu: true
 * [Shouldbeefile](/cli/shouldbeefile/)
 * [Windows7で環境変数を設定する方法](/cli/windows-envvars/)
 
+**その他**
+
+* [リリースノート](/releasenotes/)
+
 ---
 
 <small>
