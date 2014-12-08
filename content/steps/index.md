@@ -42,8 +42,8 @@ title: ステップ一覧
 
 ### 状態確認ステップ
 
-* URLが「`URL`」であること
-* URLが「`URL`」でないこと
+* [URLが「`URL`」であること](/steps/PageAddressShouldBe/)
+* [URLが「`URL`」でないこと](/steps/PageAddressShouldNotBe/)
 
 --------
 
