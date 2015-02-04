@@ -37,6 +37,7 @@ sidemenu: true
 
 **その他**
 
+* <a href="https://trello.com/b/NZedoSDx" target="_blank">要望対応状況</a>
 * [リリースノート](/releasenotes/)
 
 ---
