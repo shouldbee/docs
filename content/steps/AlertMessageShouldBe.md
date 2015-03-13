@@ -20,6 +20,7 @@ JavaScriptの`alert`で表示されるダイアログの文言を確認するス
 「http://docs.shouldbee.at/steps/AlertMessageShouldBe/」に移動する
 「アラートを表示する」ボタンをクリックする
 アラートに「ダミーメッセージです」と表示されていること
+アラートを閉じる
 ```
 
 <blockquote>
