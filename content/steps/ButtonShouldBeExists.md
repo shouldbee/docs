@@ -17,7 +17,7 @@ title: 画面に「ボタン名」ボタンがあること
 ## 登録ボタンの表示を確認する例
 
 ```
-「http://docs.shouldbee.at/」に移動する
+「http://docs.shouldbee.at/steps/ButtonShouldBeExists」に移動する
 画面に「登録」ボタンがあること
 ```
 
