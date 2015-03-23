@@ -16,6 +16,7 @@ sidemenu: true
 
 * [ステップ一覧](/steps/)
 * [括弧](/steps/parenthes/)
+* [変数](/variables/)
 
 **テスト対象サイト**
 
