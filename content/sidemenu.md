@@ -17,6 +17,10 @@ sidemenu: true
 * [ステップ一覧](/steps/)
 * [括弧](/steps/parenthes/)
 
+**テスト対象サイト**
+
+* [ShouldBeeからのアクセスを許可する](/sut/shouldbee-ip/)
+
 **ブラウザとOS**
 
 * [ご利用可能なブラウザとOS](/environments/)
