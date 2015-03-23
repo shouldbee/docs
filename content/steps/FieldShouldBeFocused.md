@@ -12,12 +12,9 @@ title: 「フィールド名」フィールドにフォーカスが当たって�
 
 変数名 | 説明
 ------|---------
-`フィールド名` |  id属性・name属性・placedholer属性<br>`<label>`タグのテキストなどが利用可能。
+`フィールド名` | {{% include "parts/ElementFinder/findField/fieldName.md" %}}
 
-
-## 探索対象のフィールド
-
-このステップが見るけることができるフィールドの種類ついては、[「フィールド名」フィールドに「値」と入力する]の「探索対象の要素」を御覧ください。
+{{% include "parts/ElementFinder/findField/target-elements.md" %}}
 
 ## フィールドにフォーカスが当たっていることを確認する例
 
