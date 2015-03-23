@@ -1,0 +1,6 @@
+{{ $filename := index .Params 0 }}
+{{ range .Page.Node.Site.Pages }}
+  {{ if eq .Source.File.Path $filename }}
+    {{ .Content }}
+  {{ end }}
+{{ end }}
