@@ -6,4 +6,4 @@ tags: []
 title: fieldName
 ---
 
-id属性・name属性・placedholer属性<br>`<label>`タグのテキスト・CSS3セレクターなどが利用可能。
+id属性・name属性・placeholder属性<br>`<label>`タグのテキスト・CSS3セレクターなどが利用可能。
