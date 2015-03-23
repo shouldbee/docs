@@ -2,14 +2,6 @@
 
 これはShouldBeeの[ドキュメント](http://docs.shouldbee.at)用リポジトリです。
 
-## インストール
-
-`hugo`コマンドをインストールしておく。
-
-```
-brew install hugo
-```
-
 ## ドキュメント規約
 
 1. 内部リンクのURLは`/`で終えること。
@@ -26,7 +18,7 @@ make server
 次のコマンドで新規ドキュメント作成ができます。
 
 ```
-hugo new <path>/<filename>.md
+./bin/hugo new <path>/<filename>.md
 ```
 
 ## アップロードするとき
