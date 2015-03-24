@@ -26,7 +26,7 @@ title: ステップ一覧
 * [「`要素名`」に「`テキスト`」と表示されていないこと](/steps/ElementShouldNotContainText/)
 * [「`要素名`」の「`属性名`」属性に「`テキスト`」が含まれていること](/steps/ElementAttributeShouldContainText/)
 * [「`要素名`」の「`属性名`」属性に「`テキスト`」が含まれていないこと](/steps/ElementAttributeShouldNotContainText/)
-* [「`テキスト`」と「`テキスト`」が一致すること](/steps/CompareText/)
+* [「`テキスト1`」と「`テキスト2`」が一致すること](/steps/CompareText/)
 * (実装予定) 「`テキスト`」テキストが正規表現「`正規表現`」に一致すること
 
 ### 変数代入ステップ
