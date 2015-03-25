@@ -108,6 +108,7 @@ title: ステップ一覧
 * ウィンドウを幅`横幅`px、縦`縦幅`pxに変更する
 * [ウィンドウを「`タイトル名`」に切り替える](/steps/SwitchWindow)
 * [開いたウィンドウに切り替える](/steps/SwitchToOpenedWindow/)
+* [元のウィンドウに戻す](/steps/BackToOriginalWindow/)
 
 --------
 
