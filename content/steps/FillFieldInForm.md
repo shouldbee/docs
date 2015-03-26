@@ -13,13 +13,11 @@ title: 「フォーム名」フォームの「フィールド名」フィール�
 
 パラメータ名 | 説明
 ------|---------
-`フォーム名` | `<form>`タグのid属性、または、`<form>`タグに含まれるテキストが利用可能。
+`フォーム名` | {{% include "parts/ElementFinder/findForm/formName.md" %}}
 `フィールド名` | {{% include "parts/ElementFinder/findField/fieldName.md" %}}
 `入力値` | 入力する文字列。
 
-## 探索対象のフォーム
-
-このステップが見つけることができる`<form>`については、[「フォーム名」フォームの「フィールド名」フィールドの値が「入力値」であること]の「探索対象のフォーム」を御覧ください。
+{{% include "parts/ElementFinder/findForm/target-elements.md" %}}
 
 {{% include "parts/ElementFinder/findField/target-elements.md" %}}
 
@@ -48,6 +46,3 @@ title: 「フォーム名」フォームの「フィールド名」フィール�
   <button>ログイン</button>
 </form>
 </blockquote>
-
-[「フィールド名」フィールドに「値」と入力する]: /steps/FillField/
-[「フォーム名」フォームの「フィールド名」フィールドの値が「入力値」であること]: /steps/FieldValueInFormShouldBe/

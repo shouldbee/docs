@@ -17,16 +17,12 @@ title: 「フォーム名」フォームの「ボタン名」ボタンをクリ�
 
 パラメータ名 | 説明
 ------|---------
-`フォーム名` | `<form>`タグのid属性、または、`<form>`タグに含まれるテキストが利用可能。
+`フォーム名` | {{% include "parts/ElementFinder/findForm/formName.md" %}}
 `ボタン名` | id属性・name属性・value属性・title属性などが利用可能。
 
-## 探索対象のフォーム
+{{% include "parts/ElementFinder/findForm/target-elements.md" %}}
 
-このステップが見つけることができる`<form>`については、[「フォーム名」フォームの「フィールド名」フィールドの値が「入力値」であること]の「探索対象のフォーム」を御覧ください。
-
-## 探索対象のフィールド
-
-このステップが見るけることができるフィールドの種類ついては、[「フィールド名」フィールドに「値」と入力する]の「探索対象の要素」を御覧ください。
+{{% include "parts/ElementFinder/findButton/target-elements.md" %}}
 
 ## 2つ目のボタンをクリックする例
 
