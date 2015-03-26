@@ -19,7 +19,7 @@ title: 「チェックボックス名」の「選択肢」にチェックが入�
 ## チェックが入っているか確認する例
 
 ```
-「http://docs.shouldbee.at/steps/OptionShouldBeSelected/」に移動する
+「http://docs.shouldbee.at/steps/CheckboxShouldBeChecked/」に移動する
 「billed」の「請求済」にチェックが入っていること
 「paid」の「未入金」にチェックが入っていること
 「paid」の「入金済」にチェックが入っていること

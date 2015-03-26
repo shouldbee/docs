@@ -78,7 +78,7 @@ title: ステップ一覧
 * [「`フォーム名`」フォームの「`フィールド名`」フィールドの値が「`入力値`」であること](/steps/FieldValueInFormShouldBe/)
 * [「`フォーム名`」フォームの「`フィールド名`」フィールドの値が「`入力値`」でないこと](/steps/FieldValueInFormShouldNotBe/)
 * [「`フィールド名`」フィールドにフォーカスが当たっていること](/steps/FieldShouldBeFocused/)
-* [「`チェックボックス名`」の「`選択肢`」にチェックが入っていること](/steps/OptionShouldBeSelected/)
+* [「`チェックボックス名`」の「`選択肢`」にチェックが入っていること](/steps/CheckboxShouldBeChecked/)
 * [画面に「`ボタン名`」ボタンがあること](/steps/ButtonShouldBeExists/)
 
 --------

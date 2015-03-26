@@ -1,4 +1,5 @@
 server:
+	rm -rf public
 	./bin/hugo server -t shouldbee -w
 
 build:
