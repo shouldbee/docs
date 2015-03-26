@@ -1,6 +1,6 @@
 {{ partial "head.html" . }}
 
-{{ range first 1 .Data.Pages }}
+{{ range first 1 (where .Data.Pages "Section" "!=" "parts") }}
 <article>
   <div class="jumbotron">
     <div class="container">
