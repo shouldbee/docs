@@ -12,7 +12,7 @@ title: 「チェックボックス名」のチェックをはずす
 
 パラメータ名 | 説明
 ------|---------
-`チェックボックス名` | チェックをはずすチェックボックスの名前。<br>id属性・name属性・value属性・`<label>`タグのテキストが利用可能。
+`チェックボックス名` | {{% include "parts/ElementFinder/findCheckbox/checkboxName.md" %}}
 
 ## チェックを外す例
 
@@ -20,23 +20,4 @@ title: 「チェックボックス名」のチェックをはずす
 「メールで通知を受け取る」のチェックをはずす
 ```
 
-## 探索対象の要素
-
-このステップは下記の順番でマッチする要素を探していきます。
-
-```
-<input type="checkbox" id="チェックボックス名">
-
-<input type="checkbox" name="チェックボックス名">
-
-<input type="checkbox" value="チェックボックス名">
-
-<label for="...">チェックボックス名</label>
-<input type="checkbox" id="...">
-
-<label>チェックボックス名
-  <input type="checkbox">
-</label>
-```
-
-※このステップは`<input type="radio">`には対応していません。
+{{% include "parts/ElementFinder/findCheckbox/target-elements.md" %}}

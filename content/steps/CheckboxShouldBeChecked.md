@@ -13,8 +13,8 @@ title: 「チェックボックス名」の「選択肢」にチェックが入�
 
 パラメータ名 | 説明
 ------|---------
-`チェックボックス名` | チェックがついているチェックボックスやラジオボタンの名前。<br>name属性が利用可能。
-`選択肢` | チェックが入っているチェックボックスやラジオボタンのvalue属性・`<label>`タグのテキストが利用可能。
+`チェックボックス名` | {{% include "parts/ElementFinder/findOptionInCheckables/checkableName.md" %}}
+`選択肢` | {{% include "parts/ElementFinder/findOptionInCheckables/optionName.md" %}}
 
 ## チェックが入っているか確認する例
 
@@ -42,26 +42,4 @@ title: 「チェックボックス名」の「選択肢」にチェックが入�
   </form>
 </blockquote>
 
-## 探索対象の要素
-
-このステップは下記の順番でマッチする要素を探していきます。
-
-```
-<input type="checkbox" name="チェックボックス名" value="選択肢">
-
-<label for="...">選択肢<label>
-<input type="checkbox" name="チェックボックス名" id="...">
-
-<label>選択肢
-  <input type="checkbox" name="チェックボックス名">
-<label>
-
-<input type="radio" name="チェックボックス名" value="選択肢">
-
-<label for="...">選択肢<label>
-<input type="radio" name="チェックボックス名" id="...">
-
-<label>選択肢
-  <input type="radio" name="チェックボックス名">
-<label>
-```
+{{% include "parts/ElementFinder/findOptionInCheckables/target-elements.md" %}}

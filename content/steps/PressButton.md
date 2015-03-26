@@ -12,7 +12,7 @@ title: 「ボタン名」ボタンをクリックする
 
 パラメータ名 | 説明
 ------|---------
-`ボタン名` | id属性・name属性・value属性・title属性などが利用可能。
+`ボタン名` | {{% include "parts/ElementFinder/findButton/buttonName.md" %}}
 
 
 ## 「ログイン」と書かれたボタンをクリックする例
@@ -21,4 +21,4 @@ title: 「ボタン名」ボタンをクリックする
 「ログイン」ボタンをクリックする
 ```
 
-{{< ElementFinder_FindButton >}}
+{{% include "parts/ElementFinder/findButton/target-elements.md" %}}

@@ -12,7 +12,7 @@ title: 画面に「ボタン名」ボタンがあること
 
 パラメータ名     | 説明
 -----------|---------
-`ボタン名` | id属性・name属性・value属性・title属性などが利用可能。
+`ボタン名` | {{% include "parts/ElementFinder/findButton/buttonName.md" %}}
 
 ## 登録ボタンの表示を確認する例
 
@@ -25,4 +25,4 @@ title: 画面に「ボタン名」ボタンがあること
 <button>登録</button>
 </blockquote>
 
-{{< ElementFinder_FindButton >}}
+{{% include "parts/ElementFinder/findButton/target-elements.md" %}}

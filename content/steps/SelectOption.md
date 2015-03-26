@@ -12,8 +12,8 @@ title: 「選択値」という値を「セレクトボックス名」から選�
 
 パラメータ名 | 説明
 ------|---------
-`セレクトボックス名` | 対象のセレクトボックスの名前。<br>id属性・name属性・`<label>`タグのテキストなどが利用可能。
-`選択値` | 選択する値。 value属性または`<option>`タグのテキストが利用可能。
+`セレクトボックス名` | {{% include "parts/ElementFinder/findOption/selectName.md" %}}
+`選択値` | {{% include "parts/ElementFinder/findOption/optionName.md" %}}
 
 
 ## 都道府県から新潟県を選択する例
@@ -22,47 +22,4 @@ title: 「選択値」という値を「セレクトボックス名」から選�
 「新潟県」という値を「都道府県」から選択する
 ```
 
-## 探索対象の要素
-
-このステップは下記の順番でマッチする要素を探していきます。
-
-
-```
-<select id="セレクトボックス名">
-  <option value="選択値">...</option>
-</select>
-
-<select name="セレクトボックス名">
-  <option value="選択値">...</option>
-</select>
-
-<label for="...">セレクトボックス名</label>
-<select id="...">
-  <option value="選択値">...</option>
-</select>
-
-<label>セレクトボックス名
-  <select>
-    <option value="選択値">...</option>
-  </select>
-</label>
-
-<select id="セレクトボックス名">
-  <option>選択値</option>
-</select>
-
-<select name="セレクトボックス名">
-  <option>選択値</option>
-</select>
-
-<label for="...">セレクトボックス名</label>
-<select id="...">
-  <option>選択値</option>
-</select>
-
-<label>セレクトボックス名
-  <select>
-    <option>選択値</option>
-  </select>
-</label>
-```
+{{% include "parts/ElementFinder/findOption/target-elements.md" %}}
