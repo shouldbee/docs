@@ -5,6 +5,7 @@ build:
 	rm -rf public
 	./bin/hugo -b http://docs.shouldbee.at -t shouldbee
 	rm -rf ./public/parts
+	find . -name .DS_Store -delete
 
 upload: build
-	aws s3 sync public/ s3://docs.shouldbee.at/
+	aws s3 sync --delete public/ s3://docs.shouldbee.at/
