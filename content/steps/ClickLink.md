@@ -13,7 +13,7 @@ title: 「リンク名」のリンク先へ移動する
 
 パラメータ名 | 説明
 ------|---------
-`リンク名` | `<a>`タグのテキスト、id属性・title属性などが利用可能。
+`リンク名` | {{% include "parts/ElementFinder/findLink/linkName.md" %}}
 
 
 ## 「新規登録」のリンクをクリックする例
@@ -22,24 +22,7 @@ title: 「リンク名」のリンク先へ移動する
 「新規登録」のリンク先へ移動する
 ```
 
-## 探索対象の要素
-
-このステップは下記の順番でマッチする要素を探していきます。
-
-```
-<a href="..." id="リンク名">...</a>
-<a href="..." title="リンク名">...</a>
-<a href="..." rel="リンク名">...</a>
-<a href="...">リンク名</a>
-<a href="..."><img alt="リンク名"/></a>
-
-<* role="link" id="login">リンク名</*>
-<* role="link" value="login">リンク名</*>
-<* role="link" title="login">リンク名</*>
-<* role="link">リンク名</*>
-```
-
-上記の`*`はタグ名を限定しないという意味です。
+{{% include "parts/ElementFinder/findLink/target-elements.md" %}}
 
 ## 別の表記
 
