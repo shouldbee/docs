@@ -12,7 +12,7 @@ title: 「チェックボックス名」にチェックをつける
 
 パラメータ名 | 説明
 ------|---------
-`チェックボックス名` | チェックをつけるチェックボックスやラジオボタンの名前。<br>id属性・name属性・value属性・`<label>`タグのテキストが利用可能。
+`チェックボックス名` | {{% include "parts/ElementFinder/findCheckable/checkableName.md" %}}
 
 ## ラジオボタンで男性を選択する例
 
@@ -20,35 +20,4 @@ title: 「チェックボックス名」にチェックをつける
 「男性」にチェックをつける
 ```
 
-## 探索対象の要素
-
-このステップは下記の順番でマッチする要素を探していきます。
-
-```
-<input type="checkbox" id="チェックボックス名">
-
-<input type="checkbox" name="チェックボックス名">
-
-<input type="checkbox" value="チェックボックス名">
-
-<label for="...">チェックボックス名</label>
-<input type="checkbox" id="...">
-
-<label>チェックボックス名
-  <input type="checkbox">
-</label>
-
-
-<input type="radio" id="チェックボックス名">
-
-<input type="radio" name="チェックボックス名">
-
-<input type="radio" value="チェックボックス名">
-
-<label for="...">チェックボックス名</label>
-<input type="radio" id="...">
-
-<label>チェックボックス名
-  <input type="radio">
-</label>
-```
+{{% include "parts/ElementFinder/findCheckable/target-elements.md" %}}
