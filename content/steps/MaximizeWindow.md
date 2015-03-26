@@ -17,7 +17,7 @@ title: ウィンドウを最大化する
 
 ```
 「http://docs.shouldbee.at/steps/MaximizeWindow/」に移動する
-ウィンドウを幅「200」px、縦「200」pxに変更する
+ウィンドウを幅「480」px、縦「480」pxに変更する
 ウィンドウを最大化する
 ```
 
