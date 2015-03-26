@@ -21,4 +21,4 @@ title: 「ボタン名」ボタンをクリックする
 「ログイン」ボタンをクリックする
 ```
 
-{{< ElementFinder_FindButton >}}
+{{% include "parts/ElementFinder/findButton/target-elements.md" %}}

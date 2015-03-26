@@ -25,4 +25,4 @@ title: 画面に「ボタン名」ボタンがあること
 <button>登録</button>
 </blockquote>
 
-{{< ElementFinder_FindButton >}}
+{{% include "parts/ElementFinder/findButton/target-elements.md" %}}
