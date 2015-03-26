@@ -26,6 +26,7 @@ title: 「キー」キーを押す
 * f1, f2, f3, f4, f5, f6, f7, f8, f9, f10, f11, f12
 * shift
 * tab
+* ↑, →, ↓, ←, up, right, down, left
 
 ※大文字・全角で書くことも可能です。
 
