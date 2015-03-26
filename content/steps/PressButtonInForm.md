@@ -18,7 +18,7 @@ title: 「フォーム名」フォームの「ボタン名」ボタンをクリ�
 パラメータ名 | 説明
 ------|---------
 `フォーム名` | {{% include "parts/ElementFinder/findForm/formName.md" %}}
-`ボタン名` | id属性・name属性・value属性・title属性などが利用可能。
+`ボタン名` | {{% include "parts/ElementFinder/findButton/buttonName.md" %}}
 
 {{% include "parts/ElementFinder/findForm/target-elements.md" %}}
 
