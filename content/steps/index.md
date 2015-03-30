@@ -62,6 +62,7 @@ title: ステップ一覧
 * [「`選択値`」という値を「`セレクトボックス名`」から選択する](/steps/SelectOption/)
 * [「`チェックボックス名`」にチェックをつける](/steps/CheckOption/)
 * [「`チェックボックス名`」のチェックをはずす](/steps/UncheckOption/)
+* [「`チェックボックス名`」の「`選択肢`」にチェックを入れる](/steps/CheckCheckbox/)
 * [「`フォーム名`」フォームの「`フィールド名`」フィールドに「`入力値`」と入力する](/steps/FillFieldInForm/)
 * [「`フォーム名`」フォームの「`ボタン名`」ボタンをクリックする](/steps/PressButtonInForm/)
 * [「`フィールド名`」フィールドにフォーカスを当てる](/steps/FocusField/)
