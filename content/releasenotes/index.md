@@ -6,6 +6,52 @@ tags: []
 title: リリースノート
 ---
 
+## v9 (2015-03-30)
+
+__ステップ追加__
+
+* {{% link "steps/AlertMessageShouldBe.md" %}}
+* {{% link "steps/AlertMessageShouldBe-confirm.md" %}}
+* {{% link "steps/BackToOriginalWindow.md" %}}
+* {{% link "steps/SwitchToOpenedWindow.md" %}}
+* {{% link "steps/SwitchWindow.md" %}}
+* {{% link "steps/CompareText.md" %}}
+* {{% link "steps/PressKey.md" %}}
+* {{% link "steps/ButtonShouldBeExists.md" %}}
+* {{% link "steps/OptionShouldBeSelected.md" %}}
+* {{% link "steps/FocusField.md" %}}
+* {{% link "steps/FieldShouldBeFocused.md" %}}
+* {{% link "steps/FillFieldInForm.md" %}}
+* {{% link "steps/FieldValueInFormShouldBe.md" %}}
+* {{% link "steps/PressButtonInForm.md" %}}
+* {{% link "steps/ListItemsShouldBeUnique.md" %}}
+* {{% link "steps/TextShouldBeMatchRegex.md" %}}
+* {{% link "steps/TableCellBackgroundColorShouldBe.md" %}}
+* {{% link "steps/TableCellTextShouldBe.md" %}}
+* {{% link "steps/CalculateExpression.md" %}}
+* {{% link "steps/ExtractNumberFromText.md" %}}
+* {{% link "steps/GetTableCellText.md" %}}
+* {{% link "steps/GetRowNumberByColumnText.md" %}}
+* {{% link "steps/GetElementText.md" %}}
+
+__機能追加__
+
+* [変数代入機能。](/variables/)
+* [ステップの失敗理由が結果画面に表示されるようになった。](https://trello.com/c/q8NSTXpM/21--)
+* [ShouldBeeが固定IPからテスト対象サイトにアクセスするようになった。](/sut/shouldbee-ip/)
+* 以下のステップの「`フィールド名`」にCSS3セレクタが追加された。
+  * {{% link "steps/FieldShouldBeFocused.md" %}}
+  * {{% link "steps/FillField.md" %}}
+  * {{% link "steps/FillFieldInForm.md" %}}
+  * {{% link "steps/FocusField.md" %}}
+* [CSSセレクタの書式が正しくない場合のエラーが表示されるようなった。](https://trello.com/c/1hJNum0H/8-css)
+
+__その他__
+
+* ドキュメントされていなかったステップのドキュメントが作成された。
+
+---------------------------------------
+
 ## v8 (2015-02-13)
 
 __ステップ追加__

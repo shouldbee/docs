@@ -1,0 +1,1 @@
+{{ $filename := index .Params 0 }}{{ range .Page.Node.Site.Pages }}{{ if eq .Source.File.Path $filename }}<a href="{{ .RelPermalink }}">{{ .Title }}</a>{{ end }}{{ end }}
