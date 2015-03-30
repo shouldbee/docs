@@ -73,7 +73,7 @@ title: ステップ一覧
 * [「`フィールド名`」フィールドの値が「`入力値`」であること](/steps/FieldValueShouldBe/)
 * [「`フィールド名`」フィールドの値が「`入力値`」でないこと](/steps/FieldValueShouldNotBe/)
 * [「`セレクトボックス名`」セレクトで「`選択値`」が選択されていること](/steps/OptionShouldBeSelected/)
-* 「`セレクトボックス名`」セレクトで「`選択値`」が選択されていないこと
+* [「`セレクトボックス名`」セレクトで「`選択値`」が選択されていないこと](/steps/OptionShouldNotBeSelected/)
 * [チェックボックス「`チェックボックス名`」のチェックがついていること](/steps/OptionShouldBeChecked/)
 * [チェックボックス「`チェックボックス名`」のチェックがはずれていること](/steps/OptionShouldNotBeChecked/)
 * [「`フォーム名`」フォームの「`フィールド名`」フィールドの値が「`入力値`」であること](/steps/FieldValueInFormShouldBe/)
