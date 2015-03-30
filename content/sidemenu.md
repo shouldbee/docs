@@ -11,7 +11,7 @@ sidemenu: true
 **テストスクリプト**
 
 * [テストスクリプトの書き方](/getting-started/)
-* [SKIPになる条件](/testscript/Skip/)
+* [SKIPになる条件](/test-script/skip/)
 
 **ステップ**
 
