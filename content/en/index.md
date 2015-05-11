@@ -14,24 +14,24 @@ You can create your own original test scenarios by combining these steps.
 
 ### Operational Steps
 
-* [Click on "`element`"](/steps/ClickElement/)
-* [Wait for "`seconds`" seconds](/en/WaitForSeconds/)
+* Click on "`element`"
+* Wait for "`seconds`" seconds
 
 ### State Observation Steps
 
-* [The page should contain "`text`"](/steps/PageShouldContainText/)
-* [The page should not contain "`text`"](/steps/PageShouldNotContainText/)
-* [The "`element`" element should contain "`text`"](/steps/ElementShouldContainText/)
-* [The "`element`" element should not contain "`text`"](/steps/ElementShouldNotContainText/)
-* [The "`attribute`" attribute of "`element`" should contain "`text`"](/steps/ElementAttributeShouldContainText/)
-* [The "`attribute`" attribute of "`element`" should not contain "`text`"](/steps/ElementAttributeShouldNotContainText/)
-* ["`text1`" should equal "`text2`"](/steps/CompareText/)
-* ["`text`" should match "`pattern`"](/steps/TextShouldBeMatchRegex/)
+* The page should contain "`text`"
+* The page should not contain "`text`"
+* The "`element`" element should contain "`text`"
+* The "`element`" element should not contain "`text`"
+* The "`attribute`" attribute of "`element`" should contain "`text`"
+* The "`attribute`" attribute of "`element`" should not contain "`text`"
+* "`text1`" should equal "`text2`"
+* "`text`" should match "`pattern`"
 
 ### Variable Assignment Steps
 
-* [$text = The text of "`element`"](/steps/GetElementText/)
-* [$sum = Count the elements which match "`css selector`"](/en/CountElement/)
+* $text = The text of "`element`"
+* $sum = Count the elements which match "`css selector`"
 
 --------
 
@@ -39,17 +39,17 @@ You can create your own original test scenarios by combining these steps.
 
 ### Operational Steps
 
-* [Go to "`URL`"](/steps/GoTo/)
-* [Follow "`link`"](/steps/ClickLink/)
-* [Go to the homepage](/steps/GoToHomepage/)
-* [Move forward one page](/steps/Forward/)
-* [Move backward one page](/steps/Back/)
-* [Reload the page](/steps/Reload/)
+* Go to "`URL`"
+* Follow "`link`"
+* Go to the homepage
+* Move forward one page
+* Move backward one page
+* Reload the page
 
 ### State Observation Steps
 
-* [The URL should be "`URL`"](/steps/PageAddressShouldBe/)
-* [The URL should not be "`URL`"](/steps/PageAddressShouldNotBe/)
+* The URL should be "`URL`"
+* The URL should not be "`URL`"
 
 --------
 
@@ -57,36 +57,36 @@ You can create your own original test scenarios by combining these steps.
 
 ### Operational Steps
 
-* [Fill in the "`field`" field with "`value`"](/steps/FillField/)
-* [Press "`button`" button](/steps/PressButton/)
-* [Select "`option`" from "`select`"](/steps/SelectOption/)
-* [Check "`checkbox`"](/steps/CheckOption/)
-* [Uncheck "`checkbox`"](/steps/UncheckOption/)
-* [Check "`option`" in "`checkbox`"](/steps/CheckCheckbox/)
-* [Fill in the "`field`" field in the "`form`" form with "`value`"](/steps/FillFieldInForm/)
-* [Press the "`button`" button in the "`form`" from](/steps/PressButtonInForm/)
-* [Focus on the "`field`" field](/steps/FocusField/)
-* [Press the "`key`" key](/steps/PressKey/)
+* Fill in the "`field`" field with "`value`"
+* Press "`button`" button
+* Select "`option`" from "`select`"
+* Check "`checkbox`"
+* Uncheck "`checkbox`"
+* Check "`option`" in "`checkbox`"
+* Fill in the "`field`" field in the "`form`" form with "`value`"
+* Press the "`button`" button in the "`form`" from
+* Focus on the "`field`" field
+* Press the "`key`" key
 
 ### State Observation Steps
 
-* [The value of the "`field`" field should be "`value`"](/steps/FieldValueShouldBe/)
-* [The value of the "`field`" field should not be "`value`"](/steps/FieldValueShouldNotBe/)
-* ["`option`" in "`select`" should be selected](/steps/OptionShouldBeSelected/)
-* ["`option`" in  "`select`" should not be selected](/steps/OptionShouldNotBeSelected/)
-* [The "`checkbox`" checkbox should be checked](/steps/OptionShouldBeChecked/)
-* [The "`checkbox`" checkbox should not be checked](/steps/OptionShouldNotBeChecked/)
-* [The value of the "`field`" field in the "`form`" form should be "`value`"](/steps/FieldValueInFormShouldBe/)
-* [The value of the "`field`" field in the "`form`" form should not be "`value`"](/steps/FieldValueInFormShouldNotBe/)
-* [The "`field`" field should have focus](/steps/FieldShouldBeFocused/)
-* ["`option`" in "`checkbox`" should be checked](/steps/CheckboxShouldBeChecked/)
-* [The  "`button`" button should be shown](/steps/ButtonShouldBeExists/)
+* The value of the "`field`" field should be "`value`"
+* The value of the "`field`" field should not be "`value`"
+* "`option`" in "`select`" should be selected
+* "`option`" in  "`select`" should not be selected
+* The "`checkbox`" checkbox should be checked
+* The "`checkbox`" checkbox should not be checked
+* The value of the "`field`" field in the "`form`" form should be "`value`"
+* The value of the "`field`" field in the "`form`" form should not be "`value`"
+* The "`field`" field should have focus
+* "`option`" in "`checkbox`" should be checked
+* The  "`button`" button should be shown
 
 --------
 
 ## Lists
 
-* [Each items of "`list`" should be unique](/steps/ListItemsShouldBeUnique/)
+* Each items of "`list`" should be unique
 
 --------
 
@@ -94,15 +94,15 @@ You can create your own original test scenarios by combining these steps.
 
 ### State Observation Steps
 
-* [The text of the cell in  "`column number`" column and "`row number`" row in the "`table`" table should be "`text`"](/steps/TableCellTextShouldBe/)
-* [Background color of the cell in  "`column number`" column and "`row number`" row in the "`table`" table should be "`color code`"](/steps/TableCellBackgroundColorShouldBe/)
+* The text of the cell in  "`column number`" column and "`row number`" row in the "`table`" table should be "`text`"
+* Background color of the cell in  "`column number`" column and "`row number`" row in the "`table`" table should be "`color code`"
 
 ### Variable Assignment Steps
 
-* [$num = The row number of the cell where "`column number`" column text equals "`text`" in the "`table`" table](/steps/GetRowNumberByColumnText/)
-* [$text = The text of the cell in "`column number`" column and "`row number`" row in the "`table`" table](/steps/GetTableCellText/)
-* [$text = The text of the cell in "`column number`" column and "`row number`" row in the header of the "`table`" table](/en/GetTableHeaderCellText/)
-* [$sum = Sum of the “`column number to sum`” column which “`column number to search`” column is “`text`” in the “`table`” table](/setps/SumFilteredRows/)
+* $num = The row number of the cell where "`column number`" column text equals "`text`" in the "`table`" table
+* $text = The text of the cell in "`column number`" column and "`row number`" row in the "`table`" table
+* $text = The text of the cell in "`column number`" column and "`row number`" row in the header of the "`table`" table
+* $sum = Sum of the “`column number to sum`” column which “`column number to search`” column is “`text`” in the “`table`” table
 
 --------
 
@@ -110,11 +110,11 @@ You can create your own original test scenarios by combining these steps.
 
 ### Operational Steps
 
-* [Maximize the window](/steps/MaximizeWindow/)
-* [Change window size: width "`300`" px, height "`300`" px](/steps/ResizeWindow/)
-* [Switch to "`window title`" window](/steps/SwitchWindow)
-* [Switch to the opened window](/steps/SwitchToOpenedWindow/)
-* [Switch back to the original window](/steps/BackToOriginalWindow/)
+* Maximize the window
+* Change window size: width "`300`" px, height "`300`" px
+* Switch to "`window title`" window
+* Switch to the opened window
+* Switch back to the original window
 
 --------
 
@@ -122,12 +122,12 @@ You can create your own original test scenarios by combining these steps.
 
 ### Operational Steps
 
-* [Accept the currently displayed dialog](/steps/CloseAlert/)
+* Accept the currently displayed dialog
 
 ### State Observation Steps
 
-* [The alert message should be "`text`"](/steps/AlertMessageShouldBe/)
-* [The confirm message should be "`text`"](/steps/AlertMessageShouldBe-confirm/)
+* The alert message should be "`text`"
+* The confirm message should be "`text`"
 
 --------
 
@@ -135,5 +135,5 @@ You can create your own original test scenarios by combining these steps.
 
 ### Variable Assignment Steps
 
-* [$number = The number in "`text`"](/steps/ExtractNumberFromText/)
-* [$result = The result of "`calculation formula`"](/steps/CalculateExpression/)
+* $number = The number in "`text`"
+* $result = The result of "`calculation formula`"
