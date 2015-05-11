@@ -11,121 +11,130 @@ title: index
 ステップを組み合わせることで、一連のシナリオを組み立てることができます。
 
 
-## 汎用
+## General
 
-### 操作ステップ
+### Operational Steps
 
-* [「`要素名`」エレメントをクリックする](/steps/ClickElement/)
+* [Click on "element"](/steps/ClickElement/)
+* [Wait for "seconds" seconds](/steps/WaitForSeconds)
 
-### 状態確認ステップ
+### State Observation Steps
 
-* [画面に「`テキスト`」と表示されていること](/steps/PageShouldContainText/)
-* [画面に「`テキスト`」と表示されていないこと](/steps/PageShouldNotContainText/)
-* [「`要素名`」に「`テキスト`」と表示されていること](/steps/ElementShouldContainText/)
-* [「`要素名`」に「`テキスト`」と表示されていないこと](/steps/ElementShouldNotContainText/)
-* [「`要素名`」の「`属性名`」属性に「`テキスト`」が含まれていること](/steps/ElementAttributeShouldContainText/)
-* [「`要素名`」の「`属性名`」属性に「`テキスト`」が含まれていないこと](/steps/ElementAttributeShouldNotContainText/)
-* [「`テキスト1`」と「`テキスト2`」が一致すること](/steps/CompareText/)
-* [「`テキスト`」テキストが正規表現「`正規表現`」に一致すること](/steps/TextShouldBeMatchRegex/)
+* [The page should contain "text"](/steps/PageShouldContainText/)
+* [The page should not contain "text"](/steps/PageShouldNotContainText/)
+* [The "element" element should contain "text"](/steps/ElementShouldContainText/)
+* [The "element" element should not contain "text"](/steps/ElementShouldNotContainText/)
+* [The "attribute" attribute of "element" should contain "text"](/steps/ElementAttributeShouldContainText/)
+* [The "attribute" attribute of "element" should not contain "text"](/steps/ElementAttributeShouldNotContainText/)
+* ["text1" should equal "text2"](/steps/CompareText/)
+* ["text" should match "pattern"](/steps/TextShouldBeMatchRegex/)
 
-### 変数代入ステップ
+### Variable Substitution Steps
 
-* [$テキスト =「`エレメント名`」エレメントのテキスト](/steps/GetElementText/)
-
---------
-
-## 画面遷移
-
-### 操作ステップ
-
-* [「`URL`」に移動する](/steps/GoTo/)
-* [「`リンク名`」のリンク先へ移動する](/steps/ClickLink/)
-* [トップページに移動する](/steps/GoToHomepage/)
-* [履歴の次のページヘ進む](/steps/Forward/)
-* [履歴の前のページに戻る](/steps/Back/)
-* [ページをリロードする](/steps/Reload/)
-
-### 状態確認ステップ
-
-* [URLが「`URL`」であること](/steps/PageAddressShouldBe/)
-* [URLが「`URL`」でないこと](/steps/PageAddressShouldNotBe/)
+* [$text = The text of "element"](/steps/GetElementText/)
+* [$sum = Count the elements which match "css selector"](/steps/CountElement)
 
 --------
 
-## フォーム
+## Window moving
 
-### 操作ステップ
+### Operational Steps
 
-* [「`フィールド名`」フィールドに「`入力値`」と入力する](/steps/FillField/)
-* [「`ボタン名`」ボタンをクリックする](/steps/PressButton/)
-* [「`選択値`」という値を「`セレクトボックス名`」から選択する](/steps/SelectOption/)
-* [「`チェックボックス名`」にチェックをつける](/steps/CheckOption/)
-* [「`チェックボックス名`」のチェックをはずす](/steps/UncheckOption/)
-* [「`チェックボックス名`」の「`選択肢`」にチェックを入れる](/steps/CheckCheckbox/)
-* [「`フォーム名`」フォームの「`フィールド名`」フィールドに「`入力値`」と入力する](/steps/FillFieldInForm/)
-* [「`フォーム名`」フォームの「`ボタン名`」ボタンをクリックする](/steps/PressButtonInForm/)
-* [「`フィールド名`」フィールドにフォーカスを当てる](/steps/FocusField/)
-* [「`キー`」キーを押す](/steps/PressKey/)
+* [Go to "URL"](/steps/GoTo/)
+* [Follow "link"](/steps/ClickLink/)
+* [Go to the homepage](/steps/GoToHomepage/)
+* [Move forward one page](/steps/Forward/)
+* [Move backward one page](/steps/Back/)
+* [Reload the page](/steps/Reload/)
 
-### 状態確認ステップ
+### State Observation Steps
 
-* [「`フィールド名`」フィールドの値が「`入力値`」であること](/steps/FieldValueShouldBe/)
-* [「`フィールド名`」フィールドの値が「`入力値`」でないこと](/steps/FieldValueShouldNotBe/)
-* [「`セレクトボックス名`」セレクトで「`選択値`」が選択されていること](/steps/OptionShouldBeSelected/)
-* [「`セレクトボックス名`」セレクトで「`選択値`」が選択されていないこと](/steps/OptionShouldNotBeSelected/)
-* [チェックボックス「`チェックボックス名`」のチェックがついていること](/steps/OptionShouldBeChecked/)
-* [チェックボックス「`チェックボックス名`」のチェックがはずれていること](/steps/OptionShouldNotBeChecked/)
-* [「`フォーム名`」フォームの「`フィールド名`」フィールドの値が「`入力値`」であること](/steps/FieldValueInFormShouldBe/)
-* [「`フォーム名`」フォームの「`フィールド名`」フィールドの値が「`入力値`」でないこと](/steps/FieldValueInFormShouldNotBe/)
-* [「`フィールド名`」フィールドにフォーカスが当たっていること](/steps/FieldShouldBeFocused/)
-* [「`チェックボックス名`」の「`選択肢`」にチェックが入っていること](/steps/CheckboxShouldBeChecked/)
-* [画面に「`ボタン名`」ボタンがあること](/steps/ButtonShouldBeExists/)
+* [The URL should be "URL"](/steps/PageAddressShouldBe/)
+* [The URL should not be "URL"](/steps/PageAddressShouldNotBe/)
 
 --------
 
-## リスト
+## Form
 
-* [「`リスト名`」の中に重複がないこと](/steps/ListItemsShouldBeUnique/)
+### Operational Steps
 
---------
+* [Fill in the "field" field with "value"](/steps/FillField/)
+* [Press "button" button](/steps/PressButton/)
+* [Select "option" from "select"](/steps/SelectOption/)
+* [Check "checkbox"](/steps/CheckOption/)
+* [Uncheck "checkbox"](/steps/UncheckOption/)
+* [Check "option" in "checkbox"](/steps/CheckCheckbox/)
+* [Fill in the "field" field in the "form" form with "value"](/steps/FillFieldInForm/)
+* [Press the "button" button in the "form" from](/steps/PressButtonInForm/)
+* [Focus on the "field" field](/steps/FocusField/)
+* [Press the "key" key](/steps/PressKey/)
 
-## テーブル・表
+### State Observation Steps
 
-### 状態確認ステップ
-
-* [「`テーブル名`」テーブルの「`行番号`」行目「`列番号`」列目のテキストが「`テキスト`」であること](/steps/TableCellTextShouldBe/)
-* [「`テーブル名`」テーブルの「`行番号`」行目「`列番号`」列目の背景色が「`#000`」であること](/steps/TableCellBackgroundColorShouldBe/)
-
-### 変数代入ステップ
-
-* [$行番号 =「`テーブル名`」テーブルの「`列番号`」列目のテキストが「`テキスト`」の行番号](/steps/GetRowNumberByColumnText/)
-* [$テキスト =「`テーブル名`」テーブルの「`行番号`」行目「`列番号`」列目のテキスト](/steps/GetTableCellText/)
-* [$合計 = 「`テーブル名`」テーブルの「`検索する列番号`」列目が「`条件`」の「`合計する列番号`」列目を合計する](/steps/SumFilteredRows/)
-
-## ウィンドウ
-
-* [ウィンドウを最大化する](/steps/MaximizeWindow/)
-* [ウィンドウを幅「`横幅`」px、縦「`縦幅`」pxに変更する](/steps/ResizeWindow/)
-* [ウィンドウを「`タイトル名`」に切り替える](/steps/SwitchWindow)
-* [開いたウィンドウに切り替える](/steps/SwitchToOpenedWindow/)
-* [元のウィンドウに戻す](/steps/BackToOriginalWindow/)
-
---------
-
-## ダイアログ
-
-### 操作ステップ
-
-* [アラートを閉じる](/steps/CloseAlert/)
-
-### 状態確認ステップ
-
-* [アラートに「`メッセージ`」と表示されていること](/steps/AlertMessageShouldBe/)
-* [確認ダイアログに「`メッセージ`」と表示されていること](/steps/AlertMessageShouldBe-confirm/)
+* [The value of the "field" field should be "value"](/steps/FieldValueShouldBe/)
+* [The value of the "field" field should not be "value"](/steps/FieldValueShouldNotBe/)
+* ["option" in "select" should be selected](/steps/OptionShouldBeSelected/)
+* ["option" in  "select" should not be selected](/steps/OptionShouldNotBeSelected/)
+* [The "checkbox" checkbox should be checked](/steps/OptionShouldBeChecked/)
+* [The "checkbox" checkbox should not be checked](/steps/OptionShouldNotBeChecked/)
+* [The value of the "field" field in the "form" form should be "value"](/steps/FieldValueInFormShouldBe/)
+* [The value of the "filed" field in the "form" form should not be "value"](/steps/FieldValueInFormShouldNotBe/)
+* [The "field" field should have focus](/steps/FieldShouldBeFocused/)
+* ["option" in "checkbox" should be checked](/steps/CheckboxShouldBeChecked/)
+* [The  "button" button should be shown](/steps/ButtonShouldBeExists/)
 
 --------
 
-## 計算
+## List
 
-* [$数値 =「`テキスト`」から数値を抜き出す](/steps/ExtractNumberFromText/)
-* [$計算結果 =「`計算式`」の計算結果](/steps/CalculateExpression/)
+* [Each items of "list" should be unique](/steps/ListItemsShouldBeUnique/)
+
+--------
+
+## Table
+
+### State Observation Steps
+
+* [The text of the cell in  "column number" column and "row number" row in the "table" table should be "text"](/steps/TableCellTextShouldBe/)
+* [Background color of the cell in  "column number" column and "row number" row in the "table" table should be "color code"](/steps/TableCellBackgroundColorShouldBe/)
+
+### Variable Substitution Steps
+
+* [$num = The row number of the cell where "column" column text equals "text" in the "table" table](/steps/GetRowNumberByColumnText/)
+* [$text = The text of the cell in "column number" column and "row number" row in the "table" table](/steps/GetTableCellText/)
+* [$text = The text of the cell in "column number" column and "row number" row in the header of the "table" table](/steps/SumFilteredRows/)
+* [$sum = Sum of the “column number to sum” column which “column number to search” column is “text” in the “table” table](/setps/SumFilteredRows)
+
+--------
+
+## Window Control
+
+### Operational Steps
+
+* [Maximize the window](/steps/MaximizeWindow/)
+* [Change window size: width "300" px, height "300" px](/steps/ResizeWindow/)
+* [Switch to "window title" window](/steps/SwitchWindow)
+* [Switch to the opened window](/steps/SwitchToOpenedWindow/)
+* [Switch back to the original window](/steps/BackToOriginalWindow/)
+
+--------
+
+## Dialog and Alert
+
+### Operational Steps
+
+* [Accept the currently displayed dialog](/steps/CloseAlert/)
+
+### State Observation Steps
+
+* [The alert message should be "text"](/steps/AlertMessageShouldBe/)
+* [The confirm message should be "text"](/steps/AlertMessageShouldBe-confirm/)
+
+--------
+
+## Calculate
+
+### Variable Substitution Steps
+
+* [$number = The number in "text"](/steps/ExtractNumberFromText/)
+* [$result = The result of "calculation formula"](/steps/CalculateExpression/)
