@@ -6,8 +6,8 @@ tags: []
 title: Steps  
 ---
 
-The Step is the statement that drives the web browser.
-There are not only click and input steps but state observation and many other steps as well.
+A step is the statement that drives the web browser.
+There are three kind of steps: operation steps, state observation steps and variable assignment steps. Operation steps describe the key actions the user performs like click or filling fields. Observation steps inspect the output of the system and check if the system works as expected. Variable assignment steps inspect the output of system and assign the output into a variable.
 You can create your own original test scenarios by combining these steps.
 
 ## General
@@ -28,7 +28,7 @@ You can create your own original test scenarios by combining these steps.
 * ["`text1`" should equal "`text2`"](/steps/CompareText/)
 * ["`text`" should match "`pattern`"](/steps/TextShouldBeMatchRegex/)
 
-### Variable Substitution Steps
+### Variable Assignment Steps
 
 * [$text = The text of "`element`"](/steps/GetElementText/)
 * [$sum = Count the elements which match "`css selector`"](/en/CountElement/)
@@ -53,7 +53,7 @@ You can create your own original test scenarios by combining these steps.
 
 --------
 
-## Form
+## Forms
 
 ### Operational Steps
 
@@ -84,20 +84,20 @@ You can create your own original test scenarios by combining these steps.
 
 --------
 
-## List
+## Lists
 
 * [Each items of "`list`" should be unique](/steps/ListItemsShouldBeUnique/)
 
 --------
 
-## Table
+## Tables
 
 ### State Observation Steps
 
 * [The text of the cell in  "`column number`" column and "`row number`" row in the "`table`" table should be "`text`"](/steps/TableCellTextShouldBe/)
 * [Background color of the cell in  "`column number`" column and "`row number`" row in the "`table`" table should be "`color code`"](/steps/TableCellBackgroundColorShouldBe/)
 
-### Variable Substitution Steps
+### Variable Assignment Steps
 
 * [$num = The row number of the cell where "`column number`" column text equals "`text`" in the "`table`" table](/steps/GetRowNumberByColumnText/)
 * [$text = The text of the cell in "`column number`" column and "`row number`" row in the "`table`" table](/steps/GetTableCellText/)
@@ -106,7 +106,7 @@ You can create your own original test scenarios by combining these steps.
 
 --------
 
-## Window Control
+## Windows
 
 ### Operational Steps
 
@@ -118,7 +118,7 @@ You can create your own original test scenarios by combining these steps.
 
 --------
 
-## Dialog and Alert
+## Dialogs and Alerts
 
 ### Operational Steps
 
@@ -131,9 +131,9 @@ You can create your own original test scenarios by combining these steps.
 
 --------
 
-## Calculate
+## Calculation
 
-### Variable Substitution Steps
+### Variable Assignment Steps
 
 * [$number = The number in "`text`"](/steps/ExtractNumberFromText/)
 * [$result = The result of "`calculation formula`"](/steps/CalculateExpression/)
