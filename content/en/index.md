@@ -6,10 +6,9 @@ tags: []
 title: index
 ---
 
-ステップとは、ブラウザを駆動する命令文です。
-クリック操作や入力操作だけでなく、表示のチェックについても個別にステップが用意されています。
-ステップを組み合わせることで、一連のシナリオを組み立てることができます。
-
+The Step is the statement that drives the web browser.
+There are not only click and inputs steps but state observation and many other steps as well.
+You can create your own original tests scenario by combining these steps.
 
 ## General
 
