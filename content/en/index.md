@@ -7,7 +7,7 @@ title: Steps
 ---
 
 The Step is the statement that drives the web browser.
-There are not only click and inputs steps but state observation and many other steps as well.
+There are not only click and input steps but state observation and many other steps as well.
 You can create your own original test scenarios by combining these steps.
 
 ## General
@@ -15,7 +15,7 @@ You can create your own original test scenarios by combining these steps.
 ### Operational Steps
 
 * [Click on "`element`"](/steps/ClickElement/)
-* [Wait for "`seconds`" seconds](/steps/WaitForSeconds)
+* [Wait for "`seconds`" seconds](/en/WaitForSeconds/)
 
 ### State Observation Steps
 
@@ -31,7 +31,7 @@ You can create your own original test scenarios by combining these steps.
 ### Variable Substitution Steps
 
 * [$text = The text of "`element`"](/steps/GetElementText/)
-* [$sum = Count the elements which match "`css selector`"](/steps/CountElement)
+* [$sum = Count the elements which match "`css selector`"](/en/CountElement/)
 
 --------
 
@@ -101,8 +101,8 @@ You can create your own original test scenarios by combining these steps.
 
 * [$num = The row number of the cell where "`column number`" column text equals "`text`" in the "`table`" table](/steps/GetRowNumberByColumnText/)
 * [$text = The text of the cell in "`column number`" column and "`row number`" row in the "`table`" table](/steps/GetTableCellText/)
-* [$text = The text of the cell in "`column number`" column and "`row number`" row in the header of the "`table`" table](/steps/SumFilteredRows/)
-* [$sum = Sum of the “`column number to sum`” column which “`column number to search`” column is “`text`” in the “`table`” table](/setps/SumFilteredRows)
+* [$text = The text of the cell in "`column number`" column and "`row number`" row in the header of the "`table`" table](/en/GetTableHeaderCellText/)
+* [$sum = Sum of the “`column number to sum`” column which “`column number to search`” column is “`text`” in the “`table`” table](/setps/SumFilteredRows/)
 
 --------
 
