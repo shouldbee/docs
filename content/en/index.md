@@ -137,3 +137,17 @@ You can create your own original test scenarios by combining these steps.
 
 * $number = The number in "`text`"
 * $result = The result of "`calculation formula`"
+
+--------
+
+## What Is Available In The Parameters
+
+* `element`: Element name that can identify the element. CSS3 selector is available.
+* `table`: CSS3 selector is available.
+* `field`: Id, name and placeholder attributes, \<label\> tag text and CSS3 selector are available.
+* `form`: Id attribute and \<form\> tag text are available.
+* `button`: Id, name, value and title attributes are available.
+* `list`: CSS3 selector is available.
+* `checkbox`: Name attribute is available.
+* `select`: Id, name attributes and \<label\> tag text are available.
+* `option`: Value attribute and \<label\> tag text are available.
