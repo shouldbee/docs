@@ -1,7 +1,11 @@
 <div class="sidemenu">
-{{ range .Site.Pages }}
-  {{ if  eq .Params.sidemenu true }}
-    {{ .Content }}
+  {{ if eq .Section "en" }}
+    {{ range where .Site.Pages "Source.File.Path" "en/sidemenu.md" }}
+        {{ .Content }}
+    {{ end }}
+  {{ else }}
+    {{ range where .Site.Pages "Source.File.Path" "sidemenu.md" }}
+        {{ .Content }}
+    {{ end }}
   {{ end }}
-{{ end }}
 </div>

@@ -9,7 +9,29 @@
   <div class="container">
     <div class="row">
       <div class="col-md-8">
-        <div class="post-content">{{ .Content }}</div>
+        <div class="post-content">
+            <div class="translations pull-right">
+              {{ if ne .Section "en" }}
+                {{/* English */}}
+                {{ $english :=  .Source.File.Path | printf "en/%s" }}
+                {{ range where $.Site.Pages "Source.File.Path" $english }}
+                  <span class="language">
+                    <a href="{{ .RelPermalink }}">English</a>
+                  </span>
+                {{ end }}
+              {{ else }}
+                {{/* Japanese */}}
+                {{ $japanese :=  replace .Source.File.Path "en/" "" }}
+                {{ range where $.Site.Pages "Source.File.Path" $japanese }}
+                  <span class="language">
+                    <a href="{{ .RelPermalink }}">Japanese</a>
+                  </span>
+                {{ end }}
+              {{ end }}
+            </div>
+            <div class="clearfix"></div>
+          {{ .Content }}
+        </div>
         <!-- <span class="post-date">{{ .Date.Format "Mon, Jan 2, 2006" }}</span> -->
       </div>
       <div class="col-md-4 well well-small">

@@ -60,6 +60,21 @@ shortcode `link`を使うと、記事のタイトルと同じ名前のリンク�
 [「キー」キーを押す](/steps/PressKey/)
 ```
 
+## Translating Pages to English
+
+To translate a Japanese page to English, at first copy the Japanese page
+into content/en directory. The file path of an English translation must
+correspond to the Japanese page's path. For example, the
+"steps/ClickLink.md" page's translation must be named
+"en/steps/ClickLink.md":  
+
+```
+content/en/steps/ClickLink.md ... English translation page
+content/steps/ClickLink.md    ... Japanese page
+```
+
+By keeping this rule, the translation link appears on the top of the page.  
+
 ## アップロードするとき
 
 権限のある人が次のコマンドを実行すると、ドキュメントのHTMLがビルドされたのち、AWSのS3にアップロードできます。

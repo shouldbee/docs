@@ -10,3 +10,20 @@ body {
   list-style:none;
   padding-left: 10px;
 }
+
+
+.translations {
+  margin-bottom: 1.2em;
+}
+
+.translations .language:before {
+  content: "Translations: ";
+}
+
+.translations .language:after {
+  content: ", ";
+}
+
+.translations .language:last-child:after {
+  content: "";
+}
