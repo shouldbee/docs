@@ -6,7 +6,16 @@
 <link href="/css/bootstrap.min.css" rel="stylesheet">
 <link href="/css/custom.css" rel="stylesheet">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-<script src="//j.wovn.io/0" data-wovnio="key=qiL33"></script>
+{{ if ne .Section "en" }}
+  {{ if .IsPage }}
+    {{ $english :=  .Source.File.Path | printf "en/%s" }}
+    {{ range where $.Site.Pages "Source.File.Path" $english }}
+    {{ else }}
+      {{/* Use wovn if the URL doen't start with en/ and there is no english translation file. */}}
+      <script src="//j.wovn.io/0" data-wovnio="key=qiL33"></script>
+    {{ end }}
+  {{ end }}
+{{ end }}
 <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
   <div class="container">
     <div class="navbar-header">
