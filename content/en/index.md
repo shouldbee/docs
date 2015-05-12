@@ -142,7 +142,7 @@ You can create your own original test scenarios by combining these steps.
 
 ## What is available in the parameters?
 
-* `element`: Element name that can identify the element. CSS3 selector is available.
+* `element`: Element name that can identify the element. CSS3 selector and etc are available.
 * `table`: CSS3 selector is available.
 * `field`: Id, name and placeholder attributes, \<label\> tag text and CSS3 selector are available.
 * `form`: Id attribute and \<form\> tag text are available.
