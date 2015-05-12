@@ -140,7 +140,7 @@ You can create your own original test scenarios by combining these steps.
 
 --------
 
-## What Is Available In The Parameters
+## What is available in the parameters?
 
 * `element`: Element name that can identify the element. CSS3 selector is available.
 * `table`: CSS3 selector is available.
