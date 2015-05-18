@@ -64,7 +64,7 @@ You can create your own original test scenarios by combining these steps.
 * Uncheck "`checkbox`"
 * Check "`option`" in "`checkbox`"
 * Fill in the "`field`" field in the "`form`" form with "`value`"
-* Press the "`button`" button in the "`form`" from
+* Press the "`button`" button in the "`form`" form
 * Focus on the "`field`" field
 * Press the "`key`" key
 
