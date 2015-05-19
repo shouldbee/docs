@@ -13,6 +13,10 @@ sidemenu: true
 * [テストスクリプトの書き方](/getting-started/)
 * [SKIPになる条件](/test-script/skip/)
 
+**サンプル**
+
+* {{% link "examples/login-and-logout.md" %}}
+
 **ステップ**
 
 * [ステップ一覧](/steps/)

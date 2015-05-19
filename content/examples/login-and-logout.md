@@ -3,7 +3,7 @@ date: 2015-05-15T23:06:25+09:00
 description: null
 slug: null
 tags: []
-title: "テストスクリプトのサンプル: ログイン・ログアウトのテスト"
+title: "ログイン・ログアウトのテスト"
 ---
 
 ShouldBeeのテストスクリプトのサンプルです。

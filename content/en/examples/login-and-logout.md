@@ -3,7 +3,7 @@ date: 2015-05-15T22:47:50+09:00
 description: null
 slug: null
 tags: []
-title: "Test Script Example: Login and Logout"
+title: "Login and Logout"
 ---
 
 This is a test script example for ShouldBee.
