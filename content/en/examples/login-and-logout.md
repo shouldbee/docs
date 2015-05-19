@@ -17,38 +17,38 @@ This is a test script example for ShouldBee.
 ## Logging in
 
 ```
-Go to "/login"
-Fill in the “username” field with “admin“
-Fill in the “password” field with “pass“
-Press "ログイン" button
-The page should contain “管理メニュー“
+Go to "/en/login"
+Fill in the “Username” field with “admin“
+Fill in the “Password” field with “pass“
+Press "Login" button
+The page should contain “Admin Menu“
 ```
 
 ## Logging out
 
 ```
-Go to "/admin"
-Follow "ログアウト"
-The URL should be "/logout/"
-The page should contain "ログアウトしました。お疲れ様でした"
+Go to "/en/admin"
+Follow "Logout"
+The URL should be "/en/logout/"
+The page should contain "Logged out. See you again!"
 ```
 
 ### Signing up
 
 ```
-Go to "/signup"
-The page should contain "新規会員登録"
-Fill in the "アカウント名" field with "alice"
-Fill in the "パスワード" field with "password1234"
-Fill in the "メールアドレス" field with "alice@example.com"
-Check "女性"
-Check "利用規約に同意する"
-Press "登録" button
-The page should contain "登録が完了しました"
-The page should contain "ご登録内容"
-The page should contain "アカウント名: alice"
-The page should contain "メールアドレス: alice@example.com"
-The page should contain "性別: 女性"
+Go to "/en/signup"
+The page should contain "Sign up"
+Fill in the "Username" field with "alice"
+Fill in the "Password" field with "password1234"
+Fill in the "Email" field with "alice@example.com"
+Check "Female"
+Check "Agree with the term of service"
+Press "Create an account" button
+The page should contain "Thank you for your registration!"
+The page should contain "Your account"
+The page should contain "Username: alice"
+The page should contain "Email: alice@example.com"
+The page should contain "Gender: Female"
 The page should not contain "password1234"
 ```
 {{< /markdown >}}
