@@ -15,6 +15,10 @@ sidemenu: true
 * [How to Write A Test Script](/getting-started/) (japanese)
 * [The Condition to Become SKIP](/test-script/skip/) (japanese)
 
+**Examples**
+
+* {{% link "en/examples/login-and-logout.md" %}}
+
 **Steps**
 
 * {{% link "en/steps/index.md" %}}
