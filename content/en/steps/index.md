@@ -112,6 +112,7 @@ You can create your own original test scenarios by combining these steps.
 
 * Maximize the window
 * Change window size: width "`300`" px, height "`300`" px
+* Open "`URL`" in new window
 * Switch to "`window title`" window
 * Switch to the opened window
 * Switch back to the original window
