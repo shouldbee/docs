@@ -110,6 +110,7 @@ title: ステップ一覧
 * [ウィンドウを「`タイトル名`」に切り替える](/steps/SwitchWindow)
 * [開いたウィンドウに切り替える](/steps/SwitchToOpenedWindow/)
 * [元のウィンドウに戻す](/steps/BackToOriginalWindow/)
+* [「`タイトル名`」ウィンドウを閉じる](/steps/CloseWindow/)
 
 --------
 

@@ -115,6 +115,7 @@ You can create your own original test scenarios by combining these steps.
 * Switch to "`window title`" window
 * Switch to the opened window
 * Switch back to the original window
+* Close "`window title`" window
 
 --------
 
