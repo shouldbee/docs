@@ -108,7 +108,7 @@ title: ステップ一覧
 * [ウィンドウを最大化する](/steps/MaximizeWindow/)
 * [ウィンドウを幅「`横幅`」px、縦「`縦幅`」pxに変更する](/steps/ResizeWindow/)
 * [「`URL`」を新しいウィンドウで開く](/steps/OpenUrlInNewWindow/)
-* [ウィンドウを「`タイトル名`」に切り替える](steps/SwitchWindow/)
+* [ウィンドウを「`タイトル名`」に切り替える](/steps/SwitchWindow/)
 * [開いたウィンドウに切り替える](/steps/SwitchToOpenedWindow/)
 * [元のウィンドウに戻す](/steps/BackToOriginalWindow/)
 
