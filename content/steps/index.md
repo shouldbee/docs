@@ -131,4 +131,5 @@ title: ステップ一覧
 ## 計算
 
 * [$数値 =「`テキスト`」から数値を抜き出す](/steps/ExtractNumberFromText/)
+* [$日付 =「`日付形式`」形式の「`日時`」の日付](/steps/GetDate/)
 * [$計算結果 =「`計算式`」の計算結果](/steps/CalculateExpression/)
