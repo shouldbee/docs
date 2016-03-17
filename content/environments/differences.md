@@ -13,4 +13,3 @@ title: 各ブラウザの機能差
 | Internet Explorer |     ◯       |      ◯      |         ×           |             ×
 | Google Chrome |     ◯       |      ◯      |         ×           |             ◯             |
 | Firefox    |     ◯       |      ◯      |         ×           |             ◯             |
-| PhantomJS  |     ◯       |      ◯      |         ×           |             ◯             |

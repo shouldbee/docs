@@ -10,10 +10,9 @@ ShouldBeeでご利用いただけるブラウザとOSの環境一覧です。
 
 OS | ブラウザ  | 識別子
 ---|---|---
-Windows 7 | Internet Explorer 9 | `windows:ie`
-Windows 7 | Google Chrome 26 | `windows:chrome`
-Windows 7 | Firefox 31 | `windows:firefox`
-Linux | PhantomJS 1.9 | `linux:phantomjs`
+Windows 7 | Internet Explorer 11 | `windows:ie`
+Windows 7 | Google Chrome 49 | `windows:chrome`
+Windows 7 | Firefox 45 | `windows:firefox`
 
 
 <small>ライセンス上の都合により、ShouldBeeではデスクトップ版OSに相当するサーバ版OSを使っている環境があります。
