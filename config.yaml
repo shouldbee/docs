@@ -4,5 +4,5 @@ permalinks:
   post: /:year/:month/:title/
 params:
   Description: null
-  Copyright: ©ShouldBee 2014. All rights reserved.
+  Copyright: ©ShouldBee 2014 - 2016. All rights reserved.
 MetaDataFormat: yaml

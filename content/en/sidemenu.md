@@ -36,17 +36,6 @@ sidemenu: true
 * [How to Set User Agent](/environments/user-agent/) (japanese)
 * [How To Access Basic Auth](/environments/basic-auth/) (japanese)
 
-**CLI**
-
-* [CLI client](/cli/) (japanese)
-* [Shouldbeefile](/cli/shouldbeefile/) (japanese)
-* [How to Set Environment Vars in Windows](/cli/windows-envvars/) (japanese)
-
-**iOS**
-
-* [Test iOS Apps](/ios/) (japanese)
-* [Steps](/ios/steps/) (japanese)
-
 **Others**
 
 * <a href="https://trello.com/b/NZedoSDx" target="_blank">Users' Requests</a> (japanese)

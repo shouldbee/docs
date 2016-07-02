@@ -31,19 +31,7 @@ sidemenu: true
 
 * [ご利用可能なブラウザとOS](/environments/)
 * [各ブラウザの機能差](/environments/differences/)
-* [ユーザエージェントの変更](/environments/user-agent/)
 * [BASIC認証の設定](/environments/basic-auth/)
-
-**コマンドライン版ShouldBee**
-
-* [CLIからShouldBeeを使う](/cli/)
-* [Shouldbeefile](/cli/shouldbeefile/)
-* [Windows7で環境変数を設定する方法](/cli/windows-envvars/)
-
-**iOS版**
-
-* [iOS版でテストを実行する](/ios/)
-* [ステップ一覧](/ios/steps/)
 
 **その他**
 
