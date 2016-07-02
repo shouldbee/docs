@@ -33,7 +33,6 @@ sidemenu: true
 
 * [Available Browsers and OS](/environments/) (japanese)
 * [Environment Differences](/environments/differences/) (japanese)
-* [How to Set User Agent](/environments/user-agent/) (japanese)
 * [How To Access Basic Auth](/environments/basic-auth/) (japanese)
 
 **Others**
