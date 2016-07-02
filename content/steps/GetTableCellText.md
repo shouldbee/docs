@@ -19,7 +19,7 @@ title: $テキスト =「テーブル名」テーブルの「行番号」行目�
 ## 表示されている年齢と、期待している年齢が一致するか確認する例
 
 ```
-「http://docs.shouldbee.at/steps/GetTableCellText/」に移動する
+「http://docs.shouldbee.io/steps/GetTableCellText/」に移動する
 $ボブの期待される年齢 = 定数「23」
 $実際のボブの年齢 = 「#persons」表の「2」行目「2」列目のテキスト
 {$ボブの期待される年齢}と{$実際のボブの年齢}が一致すること

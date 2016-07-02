@@ -20,7 +20,7 @@ title: 「テーブル名」テーブルの「行番号」行目「列番号」�
 ## 表示されている年齢の背景色が期待している色と一致するか確認する例
 
 ```
-「http://docs.shouldbee.at/steps/TableCellBackgroundColorShouldBe/」に移動する
+「http://docs.shouldbee.io/steps/TableCellBackgroundColorShouldBe/」に移動する
 「#persons」表の「2」行目「2」列目の背景色が「#ffcccc」であること
 ```
 

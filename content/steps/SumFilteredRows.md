@@ -22,7 +22,7 @@ title: 「テーブル名」テーブルの「検索する列番号」列目が�
 ## 金額を合計する例
 
 ```
-「http://docs.shouldbee.at/steps/SumFilteredRows/」に移動する
+「http://docs.shouldbee.io/steps/SumFilteredRows/」に移動する
 $コンピュータの合計金額 = 「#shopping-cart」テーブルの「2」列目が「コンピュータ」の「3」列目を合計する
 $期待している金額 = 定数「400000」
 {$コンピュータの合計金額}と{$期待している金額}が一致すること

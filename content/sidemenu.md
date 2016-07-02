@@ -53,5 +53,5 @@ sidemenu: true
 ---
 
 <small>
-このウェブサイトは[GitHub](https://github.com/shouldbee/docs)で公開しています。ドキュメントの訂正・改善については、[hello@shouldbee.at](mailto:hello@shouldbee.at)にご連絡、またはGitHubでのPR・issueの方法にて受け付けております。
+このウェブサイトは[GitHub](https://github.com/shouldbee/docs)で公開しています。ドキュメントの訂正・改善については、[hello@shouldbee.io](mailto:hello@shouldbee.io)にご連絡、またはGitHubでのPR・issueの方法にて受け付けております。
 </small>

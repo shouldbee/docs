@@ -11,7 +11,7 @@ This is a test script example for ShouldBee.
 {{< markdown >}}
 # Test Specification
 
-* url: http://shouldbee.at/tutorial/
+* url: http://shouldbee.io/tutorial/
 * environment: windows:chrome
 
 ## Logging in

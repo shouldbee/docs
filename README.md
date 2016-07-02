@@ -1,6 +1,6 @@
 # ShouldBee docs
 
-これはShouldBeeの[ドキュメント](http://docs.shouldbee.at)用リポジトリです。
+これはShouldBeeの[ドキュメント](http://docs.shouldbee.io)用リポジトリです。
 
 ## ドキュメント規約
 

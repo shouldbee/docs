@@ -18,7 +18,7 @@ title: 「セレクトボックス名」セレクトで「選択値」が選択�
 ## 都道府県から新潟県を選択する例
 
 ```
-「http://docs.shouldbee.at/steps/OptionShouldBeSelected/」に移動する
+「http://docs.shouldbee.io/steps/OptionShouldBeSelected/」に移動する
 「新潟県」という値を「都道府県」から選択する
 「都道府県」セレクトで「新潟県」が選択されていること
 ```

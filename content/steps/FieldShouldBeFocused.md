@@ -19,7 +19,7 @@ title: 「フィールド名」フィールドにフォーカスが当たって�
 ## フィールドにフォーカスが当たっていることを確認する例
 
 ```
-「http://docs.shouldbee.at/steps/FieldShouldBeFocused/」に移動する
+「http://docs.shouldbee.io/steps/FieldShouldBeFocused/」に移動する
 「検索」フィールドにフォーカスを当てる
 「検索」フィールドにフォーカスが当たっていること
 画面に「フォーカスが当たっています！」と表示されていること

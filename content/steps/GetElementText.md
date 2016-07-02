@@ -17,7 +17,7 @@ title: $テキスト = 「エレメント名」エレメントのテキスト
 ## ボタンのテキストを取得するテストスクリプトの例
 
 ```
-「http://docs.shouldbee.at/steps/GetElementText/」に移動する
+「http://docs.shouldbee.io/steps/GetElementText/」に移動する
 $期待するボタン名 = 定数「"登録ボタン"」
 $ボタン名 = 「#some-button」エレメントのテキスト
 {$ボタン名}と{$期待するボタン名}が一致すること

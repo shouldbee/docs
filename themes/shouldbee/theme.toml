@@ -1,9 +1,9 @@
 name = "ShouldBee"
 license = ""
-description = "Theme for docs.shouldbee.at"
+description = "Theme for docs.shouldbee.io"
 tags = ["docs"]
 features = ["blog", ]
 
 [author]
     name = "shouldbee"
-    homepage = "http://shouldbee.at"
+    homepage = "http://shouldbee.io"

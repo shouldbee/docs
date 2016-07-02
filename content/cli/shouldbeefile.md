@@ -26,7 +26,7 @@ Shouldbeefileは3つのパートからなります。
 例:
 
 ```
-* url: http://shouldbee.at/tutorial/
+* url: http://shouldbee.io/tutorial/
 * environment: windows:chrome
 ```
 

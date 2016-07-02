@@ -19,7 +19,7 @@ title: 「フィールド名」フィールドにフォーカスを当てる
 ## フィールドにフォーカスする例
 
 ```
-「http://docs.shouldbee.at/steps/FocusField/」に移動する
+「http://docs.shouldbee.io/steps/FocusField/」に移動する
 「検索」フィールドにフォーカスを当てる
 画面に「フォーカスが当たっています！」と表示されていること
 ```

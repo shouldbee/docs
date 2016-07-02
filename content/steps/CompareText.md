@@ -18,7 +18,7 @@ title: 「テキスト1」と「テキスト2」が一致すること
 ## 比較する例
 
 ```
-「http://docs.shouldbee.at/steps/CompareText/」に移動する
+「http://docs.shouldbee.io/steps/CompareText/」に移動する
 $期待するテキスト = 定数「"こんにちは"」
 $テキスト = 「#text」エレメントのテキスト
 {$テキスト}と{$期待するテキスト}が一致すること

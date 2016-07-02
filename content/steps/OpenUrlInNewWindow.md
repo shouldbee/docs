@@ -19,7 +19,7 @@ title: 「URL」を新しいウィンドウで開く　
 ## URLを新しいウィンドウで開くテストスクリプトの例
 
 ```
-「http://docs.shouldbee.at/steps/OpenUrlInNewWindow/」を新しいウィンドウで開く
+「http://docs.shouldbee.io/steps/OpenUrlInNewWindow/」を新しいウィンドウで開く
 開いたウィンドウに切り替える
 画面に「新しいウィンドウで開く」と表示されている
 元のウィンドウに戻す

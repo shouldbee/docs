@@ -19,7 +19,7 @@ title: 「リスト名」の中に重複がないこと
 このサンプルはリストに重複項目があるため、テストがFailになる例です。
 
 ```
-「http://docs.shouldbee.at/steps/ListItemsShouldBeUnique/」に移動する
+「http://docs.shouldbee.io/steps/ListItemsShouldBeUnique/」に移動する
 「#languages」の中に重複がないこと
 ```
 
@@ -53,7 +53,7 @@ title: 「リスト名」の中に重複がないこと
 このサンプルはリストに重複項目があるため、テストがFailになる例です。
 
 ```
-「http://docs.shouldbee.at/steps/ListItemsShouldBeUnique/」に移動する
+「http://docs.shouldbee.io/steps/ListItemsShouldBeUnique/」に移動する
 「#prefecture」の中に重複がないこと
 ```
 

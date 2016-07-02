@@ -37,7 +37,7 @@ title: 「キー」キーを押す
 ## フォームでEnterキーを押す例
 
 ```
-「http://docs.shouldbee.at/steps/PressKey/」に移動する
+「http://docs.shouldbee.io/steps/PressKey/」に移動する
 「検索」フィールドに「あああ」と入力する
 「Enter」キーを押す
 画面に『「あああ」の検索結果』と表示されていること

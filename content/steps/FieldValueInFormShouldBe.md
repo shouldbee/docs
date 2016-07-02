@@ -35,7 +35,7 @@ title: 「フォーム名」フォームの「フィールド名」フィール�
 ## 2つ目のフォームのフィールドの入力値をチェックする例
 
 ```
-「http://docs.shouldbee.at/steps/FieldValueInFormShouldBe/」に移動する
+「http://docs.shouldbee.io/steps/FieldValueInFormShouldBe/」に移動する
 「ご登録済み会員ログイン」フォームの「メールアドレス」フィールドに「tanaka@example.com」と入力する
 「ご登録済み会員ログイン」フォームの「メールアドレス」フィールドの値が「tanaka@example.com」であること
 ```

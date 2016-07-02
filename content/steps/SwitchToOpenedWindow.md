@@ -16,7 +16,7 @@ title: 開いたウィンドウに切り替える
 ## 開いたウィンドウに切り替える例
 
 ```
-「http://docs.shouldbee.at/steps/SwitchToOpenedWindow/」に移動する
+「http://docs.shouldbee.io/steps/SwitchToOpenedWindow/」に移動する
 「ログインウィンドウを開く」のリンク先へ移動する
 開いたウィンドウに切り替える
 「メールアドレス」フィールドに「test@example.org」と入力する

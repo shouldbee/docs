@@ -19,7 +19,7 @@ title: $行番号 =「テーブル名」テーブルの「列番号」列目の�
 ## ボブが表示されている行番号が期待されている行番号か確認する例
 
 ```
-「http://docs.shouldbee.at/steps/GetRowNumberByColumnText/」に移動する
+「http://docs.shouldbee.io/steps/GetRowNumberByColumnText/」に移動する
 $ボブが表示されていると期待される行番号 = 定数「2」
 $行番号 =「#persons」表の「1」列目のテキストが「ボブ」の行番号
 {$ボブが表示されていると期待される行番号}と{$行番号}が一致すること

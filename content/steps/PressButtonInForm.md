@@ -29,7 +29,7 @@ title: 「フォーム名」フォームの「ボタン名」ボタンをクリ�
 同じページに、メディアユーザ・広告主ユーザそれぞれにログインフォームがあるページのサンプルです。
 
 ```
-「http://docs.shouldbee.at/steps/PressButtonInForm/」に移動する
+「http://docs.shouldbee.io/steps/PressButtonInForm/」に移動する
 「広告主様ログイン」フォームの「メールアドレス」フィールドに「yamada@example.com」と入力する
 「広告主様ログイン」フォームの「パスワード」フィールドに「p@ssW0rd」と入力する
 「広告主様ログイン」フォームの「ログイン」ボタンをクリックする

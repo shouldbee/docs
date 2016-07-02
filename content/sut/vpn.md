@@ -38,11 +38,11 @@ ppp0: flags=8051<UP,POINTOPOINT,RUNNING,MULTICAST> mtu 1280
 
 ### ShouldBeeから接続できるかのご確認
 
-最後に http://shouldbee.at にログインしていただき、ShouldBeeから接続できるかを確認してください。
+最後に http://shouldbee.io にログインしていただき、ShouldBeeから接続できるかを確認してください。
 
 確認方法は、「テストスクリプト新規作成」ページから、VPN接続確認用のテストスクリプトを作成し、そのテストが問題なく実行できるかを確認します。
 
-テストスクリプト新規作成: https://shouldbee.at/project/scripts/new
+テストスクリプト新規作成: https://shouldbee.io/project/scripts/new
 
 ![ShouldBee.png](https://qiita-image-store.s3.amazonaws.com/207/889/62a16fc5-db45-74d4-55c9-f1afa0f9c6ac.png)
 

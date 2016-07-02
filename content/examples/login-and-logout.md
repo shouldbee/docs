@@ -11,7 +11,7 @@ ShouldBeeのテストスクリプトのサンプルです。
 {{< markdown >}}
 # テスト仕様書
 
-* url: http://shouldbee.at/tutorial/
+* url: http://shouldbee.io/tutorial/
 * environment: windows:chrome
 
 ## ログインする

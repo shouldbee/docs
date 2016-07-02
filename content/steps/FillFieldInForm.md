@@ -24,7 +24,7 @@ title: 「フォーム名」フォームの「フィールド名」フィール�
 ## 2つ目のフォームのフィールドに入力する例
 
 ```
-「http://docs.shouldbee.at/steps/FillFieldInForm/」に移動する
+「http://docs.shouldbee.io/steps/FillFieldInForm/」に移動する
 「ご登録済み会員ログイン」フォームの「メールアドレス」フィールドに「tanaka@example.com」と入力する
 「ご登録済み会員ログイン」フォームの「メールアドレス」フィールドの値が「tanaka@example.com」であること
 ```

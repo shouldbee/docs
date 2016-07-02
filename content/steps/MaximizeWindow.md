@@ -16,7 +16,7 @@ title: ウィンドウを最大化する
 ## 一度ウィンドウサイズを狭めた後、元のサイズに戻す例
 
 ```
-「http://docs.shouldbee.at/steps/MaximizeWindow/」に移動する
+「http://docs.shouldbee.io/steps/MaximizeWindow/」に移動する
 ウィンドウを幅「480」px、縦「480」pxに変更する
 ウィンドウを最大化する
 ```

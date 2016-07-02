@@ -21,7 +21,7 @@ title: ウィンドウを幅「横幅」px、縦「縦幅」pxに変更する
 ## ウィンドウサイズを変更する例
 
 ```
-「http://docs.shouldbee.at/steps/ResizeWindow/」に移動する
+「http://docs.shouldbee.io/steps/ResizeWindow/」に移動する
 ウィンドウを幅「480」px、縦「480」pxに変更する
 ```
 

@@ -17,7 +17,7 @@ JavaScriptの`alert`で表示されるダイアログの文言を確認するス
 ## アラートダイアログの文言を確認する例
 
 ```
-「http://docs.shouldbee.at/steps/AlertMessageShouldBe/」に移動する
+「http://docs.shouldbee.io/steps/AlertMessageShouldBe/」に移動する
 「アラートを表示する」ボタンをクリックする
 アラートに「ダミーメッセージです」と表示されていること
 アラートを閉じる

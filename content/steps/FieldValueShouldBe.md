@@ -18,7 +18,7 @@ title: 「フィールド名」フィールドの値が「入力値」である�
 ## フィールドに入力されている内容を確認する例
 
 ```
-「http://docs.shouldbee.at/steps/FieldValueShouldBe/」に移動する
+「http://docs.shouldbee.io/steps/FieldValueShouldBe/」に移動する
 「検索」フィールドの値が「受け入れテスト」であること
 ```
 

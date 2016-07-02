@@ -17,7 +17,7 @@ title: チェックボックス「チェックボックス名」のチェック�
 ## チェックがついていることを確認する例
 
 ```
-「http://docs.shouldbee.at/steps/OptionShouldBeChecked/」に移動する
+「http://docs.shouldbee.io/steps/OptionShouldBeChecked/」に移動する
 チェックボックス「請求済」のチェックがついていること
 チェックボックス「未入金」のチェックがついていること
 チェックボックス「入金済」のチェックがついていること

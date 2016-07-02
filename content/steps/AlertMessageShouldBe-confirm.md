@@ -17,7 +17,7 @@ JavaScriptの`confirm`で表示されるダイアログの文言を確認する�
 ## 確認ダイアログの文言を確認する例
 
 ```
-「http://docs.shouldbee.at/steps/AlertMessageShouldBe-confirm/」に移動する
+「http://docs.shouldbee.io/steps/AlertMessageShouldBe-confirm/」に移動する
 「確認ダイアログを表示する」ボタンをクリックする
 確認ダイアログに「ダミーの確認メッセージです」と表示されていること
 アラートを閉じる

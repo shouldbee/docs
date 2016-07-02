@@ -18,7 +18,7 @@ title: 「タイトル名」ウィンドウを閉じる
 ## ウィンドウを閉じるテストスクリプトの例
 
 ```
-「http://docs.shouldbee.at/steps/CloseWindow/」に移動する
+「http://docs.shouldbee.io/steps/CloseWindow/」に移動する
 「ログインウィンドウを開く」のリンク先へ移動する
 開いたウィンドウに切り替える
 画面に「メールアドレス」と表示されていること

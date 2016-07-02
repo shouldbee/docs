@@ -11,7 +11,7 @@ JavaScriptの`alert`で表示されるダイアログを閉じるステップで
 ## アラートダイアログの文言を確認する例
 
 ```
-「http://docs.shouldbee.at/steps/CloseAlert/」に移動する
+「http://docs.shouldbee.io/steps/CloseAlert/」に移動する
 「アラートを表示する」ボタンをクリックする
 アラートを閉じる
 ```

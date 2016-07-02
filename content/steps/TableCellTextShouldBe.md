@@ -20,7 +20,7 @@ title: 「テーブル名」テーブルの「行番号」行目「列番号」�
 ## 表示されている年齢と、期待している年齢が一致するか確認する例
 
 ```
-「http://docs.shouldbee.at/steps/TableCellTextShouldBe/」に移動する
+「http://docs.shouldbee.io/steps/TableCellTextShouldBe/」に移動する
 「#persons」表の「2」行目「2」列目のテキストが「23」であること
 ```
 
