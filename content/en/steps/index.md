@@ -103,6 +103,8 @@ You can create your own original test scenarios by combining these steps.
 * $num = The column number of the cell where "`row number`" row text equals "`text`" in the "`table`" table
 * $text = The text of the cell in "`column number`" column and "`row number`" row in the "`table`" table
 * $text = The text of the cell in "`column number`" column and "`row number`" row in the header of the "`table`" table
+* $text = The "`attribute`" attribute of the cell in "`column number`" column and "`row number`" row in the header of the "`table`" table""
+* $text = The "`attribute`" attribute of the cell in "`column number`" column and "`row number`" row in the "`table`" table
 * $sum = Sum of the “`column number to sum`” column which “`column number to search`” column is “`text`” in the “`table`” table
 
 --------
